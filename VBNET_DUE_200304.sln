@@ -13,6 +13,10 @@ Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "Modul02.2_Zufallszahlenrate
 EndProject
 Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "Lab02_Lotto", "Lotto\Lab02_Lotto.vbproj", "{7236E718-71C4-4885-96F2-6D9F6E63ACB3}"
 EndProject
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "Modul03.1_Enumeratoren", "Enumertoren\Modul03.1_Enumeratoren.vbproj", "{3165D00D-916C-478B-8CE2-319BB4C00094}"
+EndProject
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "Modul03.2_Methoden", "Methoden\Modul03.2_Methoden.vbproj", "{7C0C74C2-1E75-470A-9DA3-E9A7B5E29A60}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -39,6 +43,14 @@ Global
 		{7236E718-71C4-4885-96F2-6D9F6E63ACB3}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{7236E718-71C4-4885-96F2-6D9F6E63ACB3}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{7236E718-71C4-4885-96F2-6D9F6E63ACB3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3165D00D-916C-478B-8CE2-319BB4C00094}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3165D00D-916C-478B-8CE2-319BB4C00094}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3165D00D-916C-478B-8CE2-319BB4C00094}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3165D00D-916C-478B-8CE2-319BB4C00094}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7C0C74C2-1E75-470A-9DA3-E9A7B5E29A60}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7C0C74C2-1E75-470A-9DA3-E9A7B5E29A60}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7C0C74C2-1E75-470A-9DA3-E9A7B5E29A60}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7C0C74C2-1E75-470A-9DA3-E9A7B5E29A60}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
