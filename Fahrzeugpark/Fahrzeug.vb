@@ -33,7 +33,7 @@ Public MustInherit Class Fahrzeug
         Get
             Return _maxGeschwindigkeit
         End Get
-        Private Set(ByVal value As Integer)
+        Set(ByVal value As Integer)
             If value >= 0 Then
                 _maxGeschwindigkeit = value
             End If

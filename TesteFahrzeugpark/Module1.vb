@@ -50,8 +50,26 @@ Module Module1
         Console.WriteLine("Produzierte Fahrzeuge: " + Fahrzeug.AnzahlFahrzeuge.ToString())
 #End Region
 
+        pkw1.Crash()
+
+        Dim fz1 As Fahrzeug = pkw1
+        Dim bewegbaresObjekt As IBewegbar = pkw1
+
+        RadAb(pkw1)
+
+        Motorschaden(pkw1)
+
+
         Console.ReadKey()
 
+    End Sub
+
+    Sub RadAb(bewegbaresObekt As IBewegbar)
+        bewegbaresObekt.AnzahlRäder -= 1
+    End Sub
+
+    Sub Motorschaden(fz As Fahrzeug)
+        fz.MaxGeschwindigkeit = 0
     End Sub
 
 End Module
